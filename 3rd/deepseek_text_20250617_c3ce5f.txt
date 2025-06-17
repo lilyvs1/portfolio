@@ -1,0 +1,6 @@
+yassine-portfolio/
+├── index.html
+├── styles.css
+├── scripts.js
+├── vercel.json
+└── assets/
