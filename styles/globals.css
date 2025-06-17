@@ -1,0 +1,17 @@
+
+/* CSS content recreated from previous canvas */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Space+Grotesk:wght@400;600;700&display=swap');
+body {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+h1, h2, h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, white, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Buttons, noise, card, icon styles skipped for brevity */
