@@ -2,50 +2,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Yassine Elwadoudi - 3D Prop & Texturing Artist</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Yassine Elwadoudi - AAA 3D Prop & Texturing Artist</title>
+    <meta name="description" content="Professional portfolio of Yassine Elwadoudi, AAA 3D Prop & Texturing Artist">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="dark">
+<body>
 
-  <!-- Banner Header -->
-  <section class="banner">
-    <h1><strong>Yassine Elwadoudi</strong> is a<br>
-      3D Hard surface and Prop artist<br>from Casablanca, Morocco</h1>
-    <div class="tags">
-      <span>Environment Art</span>
-      <span>Model Art</span>
-      <span>Props</span>
-      <span>Weapons Art</span>
-      <span>Stylized</span>
-      <span>Realistic</span>
-      <span>Substance 3D Painter</span>
-      <span>Marmoset Toolbag</span>
-      <span>Revenue-Sharing</span>
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
     </div>
-  </section>
 
-  <!-- About Section -->
-  <section class="about">
-    <p>
-      A 21-year-old 3D Hard Surface and Prop Artist focused on delivering AAA-quality asset creation,
-      skilled in diverse modeling workflows, optimization, PBR texturing, and cross-disciplinary collaboration
-      with art and tech teams to meet production benchmarks.
-    </p>
-    <p class="contact-info">
-      <strong>Contact information:</strong><br>
-      LinkedIn: <a href="https://www.linkedin.com/in/yassine-elwadoudi-625499248/" target="_blank">linkedin.com/in/yassine-elwadoudi-625499248/</a><br>
-      ArtStation: <a href="https://www.artstation.com/yassine_elwadoudi" target="_blank">artstation.com/yassine_elwadoudi</a>
-    </p>
-  </section>
+    <div class="particles" id="particles"></div>
 
-  <!-- Gallery -->
-  <section class="gallery">
-    <img src="https://via.placeholder.com/1000x600?text=Project+1" alt="Project 1" />
-    <img src="https://via.placeholder.com/1000x600?text=Project+2" alt="Project 2" />
-    <img src="https://via.placeholder.com/1000x600?text=Project+3" alt="Project 3" />
-  </section>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Yassine<br>Elwadoudi</h1>
+                <p class="hero-subtitle">3D Prop & Texturing Artist</p>
+                <p class="hero-description">
+                    Delivering AAA game-ready assets through technical mastery and artistic vision. 
+                    Specialized in hard surface modeling, PBR texturing, and real-time optimization 
+                    for modern game engines.
+                </p>
+                <div class="hero-cta">
+                    <a href="#work" class="btn btn-primary">View Work</a>
+                    <a href="#experience" class="btn">Experience</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section">
+        <div class="container">
+            <h2 class="section-title">Selected Work</h2>
+            <div class="grid grid-3">
+                <div class="glass-card project-card">
+                    <div class="project-showcase">
+                        <img src="https://via.placeholder.com/600x300?text=Project+1" alt="Project 1" />
+                    </div>
+                    <div class="project-role">3D Generalist / Art Director</div>
+                    <h3 class="project-title">WAR – The Fight Within ME, MYSELF and I</h3>
+                    <p class="project-description">
+                        Directed and produced a compelling 3D short film, seamlessly aligning artistic vision 
+                        with technical execution. Led a talented team to deliver powerful narrative through 
+                        advanced 3D animation and immersive visual storytelling techniques.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Blender</span>
+                        <span class="tech-tag">Animation</span>
+                        <span class="tech-tag">Direction</span>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <div class="project-showcase">
+                        <img src="https://via.placeholder.com/600x300?text=Project+2" alt="Project 2" />
+                    </div>
+                    <div class="project-role">3D Generalist</div>
+                    <h3 class="project-title">ZMANINO Animated Series</h3>
+                    <p class="project-description">
+                        Contributed to the acclaimed Moroccan animated series ZMANINO, creating high-quality 
+                        3D assets through optimized modeling, UV unwrapping, and texturing workflows. 
+                        Maintained visual consistency across episodes while meeting production deadlines.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">3D Modeling</span>
+                        <span class="tech-tag">UV Mapping</span>
+                        <span class="tech-tag">Texturing</span>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <div class="project-showcase">
+                        <img src="https://via.placeholder.com/600x300?text=Project+3" alt="Project 3" />
+                    </div>
+                    <div class="project-role">Graphic Designer / Art Director</div>
+                    <h3 class="project-title">Moroccan YU-GI-OH Cards</h3>
+                    <p class="project-description">
+                        Co-designed custom Yu-Gi-Oh cards celebrating the Moroccan National Football Team. 
+                        Successfully merged sports culture with pop culture elements through innovative 
+                        creative visual design and cultural storytelling.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Graphic Design</span>
+                        <span class="tech-tag">Illustration</span>
+                        <span class="tech-tag">Branding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
