@@ -1,0 +1,65 @@
+
+body.dark {
+  background: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #dcd1f1;
+  color: #000;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.banner .tags {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.banner .tags span {
+  padding: 0.4rem 1rem;
+  background: #eee;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.about {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about a {
+  color: #aaaaff;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+.gallery {
+  max-width: 1000px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
